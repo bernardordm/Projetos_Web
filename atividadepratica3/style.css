@@ -1,0 +1,117 @@
+header{
+    display: flex;
+    margin-right: 10px;
+    
+}
+h2,h3,h4{
+    color: aliceblue;
+    font-size: large;
+padding: 50,50,50,50;
+
+}
+body{
+    color: aliceblue;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+    background-color: #333333;
+    
+}
+.logo-principal{
+    height: 100px;
+    margin-right: 200px;
+}
+
+
+
+a{
+    color: rgb(255, 174, 0);
+}
+
+aside img{
+    padding-top: 250px;
+    height: 250px;
+}
+
+.barra-lateral {
+    float: left;
+    width: 20%; 
+}
+
+
+main {
+    margin-left: 22%; 
+    color: rgb(0, 0, 0);
+    flex: 1;
+}
+
+header::after,
+
+.barra-lateral::after, 
+
+main::after {
+    content: "";
+    display: table;
+    clear: both;
+    padding-bottom: 0%;
+    margin-bottom: 0;
+    border-radius: 0;
+}
+h6{
+    color: aliceblue;
+    font-size: x-large;
+}
+.banner{
+    color: #333333;
+    font-size: xx-large;
+    background: linear-gradient(rgb(187, 112, 0),rgb(255, 174, 0));;
+}
+
+.eolica{
+    padding-bottom: 100px;
+}
+
+h7{
+    font-weight: bold;
+    color: aliceblue;
+    font-size: x-large;
+}
+footer{
+    size: 50%;
+    height: 30%;
+    font-size: 15px;
+    padding-bottom: 1px;
+    margin-top: 150px;
+    text-align: center;
+    margin-top: auto;
+    background: linear-gradient(#333333,rgba(0, 110, 255, 0.479));
+}
+
+aside{
+    font-size: x large;
+    margin-right: 50px;  ;
+    float: left;
+    background: linear-gradient(rgba(255, 255, 255, 0.637)rgba(0, 110, 255, 0.479));;
+    color: rgb(255, 174, 0) ;
+    }
+
+.noticia1{
+    background-color: rgba(0, 110, 255, 0.479);
+    border: solid #33333385 5px;
+    border-radius: 5%;
+}
+
+.ntc2{
+    background-color: rgba(0, 110, 255, 0.479);
+    border: solid #33333385 5px;
+    border-radius: 5%;
+} 
+p{
+    color: aliceblue;
+    text-align: left;
+}
+
+footer, p {
+    text-align: center;
+}
